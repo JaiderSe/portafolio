@@ -6,9 +6,24 @@
 -->
 <html>
 	<head>
-		<title>Landed by HTML5 UP</title>
+		<title>Portafolio SQ</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+		<!-- stylesheets -->
+		<link href="assets/fonts/font-roboto.css" rel="stylesheet">
+		<link href="assets/fonts/font-roboto.css" rel="stylesheet">
+		<link href="assets/bootstrap/bootstrap4-alpha3.min.css" rel="stylesheet">
+		<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<link href="assets/web-analytics/style.css" rel="stylesheet">
+
+		<!-- scripts -->
+		<script src="assets/jquery/jquery.min.js"></script>
+		<script src="assets/tether/tether.min.js"></script>
+		<script src="assets/bootstrap/bootstrap4-alpha3.min.js"></script>
+		<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+		<script src="assets/web-analytics/overview.js"></script>
+
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -51,40 +66,36 @@
 					<div class="content">
 						<header>
 							<h2>Sebastián Quintero</h2>
-							<p>Software Developer<br />
-							Python, Angular, React, Node.js</p>
+							<p>Software Developer<br /></p>
 						</header>
 						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
 					</div>
+					
 					<a href="#one" class="goto-next scrolly">Next</a>
 				</section>
 
 			<!-- One -->
 				<section id="one" class="spotlight style1 bottom">
-					<span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
+					<span class="image"><img src="images/pic01.jpg" alt="" style="display: block; width:100%"/></span>
 					<div class="content">
 						<div class="container">
 							<div class="row">
 								<div class="col-4 col-12-medium">
 									<header>
 										<h2>Perfil profesional</h2>
-										<p>Nascetur eu nibh vestibulum amet gravida nascetur praesent</p>
+										<p>Tecnólogo en Electrónica Industrial con dominio del inglés, enfocado en la adaptación e implementación de tecnologías a través del desarrollo de aplicaciones basadas en machine learning para resolver problemas específicos.</p>
 									</header>
 								</div>
-								<div class="col-4 col-12-medium">
-									<p>Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
-									Blandit orci porttitor semper. Arcu phasellus tortor enim mi
-									nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet
-									augue varius tempus lobortis porttitor accumsan consequat
-									adipiscing lorem dolor.</p>
+								<div class="col-8 col-12-medium">
+									
+										<div class="card card-block">
+											<h4 class="card-title m-b-2">Trayectoria - 2025 <span class="tag m-l-1" id="revenue-tag">Aprendizaje</span></h4>
+											<div id="revenue-spline-area-chart"></div>
+										</div>
+			
 								</div>
-								<div class="col-4 col-12-medium">
-									<p>Morbi enim nascetur et placerat lorem sed iaculis neque ante
-									adipiscing adipiscing metus massa. Blandit orci porttitor semper.
-									Arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer
-									mi sed nascetur cep aliquet augue varius tempus. Feugiat lorem
-									ipsum dolor nullam.</p>
-								</div>
+								
+								
 							</div>
 						</div>
 					</div>
@@ -93,10 +104,15 @@
 
 			<!-- Two -->
 				<section id="two" class="spotlight style2 right">
-					<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
+					<div style="position: relative; width: 100%; height: auto;">
+						<span class="image fit main">
+							<img src="images/pic02.jpg" alt="" style="display: block; width: 100%;" />
+							<!-- CanvasJS chart overlay -->
+						</span>
+					</div>
 					<div class="content">
 						<header>
-							<h2>Interdum amet non magna accumsan</h2>
+							<h2>Habilidades</h2>
 							<p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
 						</header>
 						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
@@ -112,7 +128,7 @@
 					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
 					<div class="content">
 						<header>
-							<h2>Interdum felis blandit praesent sed augue</h2>
+							<h2>Educacion</h2>
 							<p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
 						</header>
 						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
@@ -127,7 +143,7 @@
 				<section id="four" class="wrapper style1 special fade-up">
 					<div class="container">
 						<header class="major">
-							<h2>Accumsan sed tempus adipiscing blandit</h2>
+							<h2>Tecnologías utilizadas</h2>
 							<p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
 						</header>
 						<div class="box alt">
@@ -173,16 +189,16 @@
 				</section>
 
 			<!-- Five -->
-				<section id="five" class="wrapper style3 special fade-up">
+				<section id="five" class="wrapper style2 special fade-up" style="background-image: url('images/pic02.jpg');">
 					<div class="container">
 						<header>
-							<h2>Magna faucibus lorem diam</h2>
-							<p>Ante metus praesent faucibus ante integer id accumsan eleifend</p>
+							<h2>¡Estemos en contacto!</h2>
+							<p>deja tu correo electrónico</p>
 						</header>
 						<form method="post" action="#" class="cta">
 							<div class="row gtr-uniform gtr-50">
 								<div class="col-8 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
-								<div class="col-4 col-12-xsmall"><input type="submit" value="Get Started" class="fit primary" /></div>
+								<div class="col-4 col-12-xsmall"><input type="submit" value="Susbribe" class="fit primary" /></div>
 							</div>
 						</form>
 					</div>
