@@ -1,0 +1,29 @@
+Sebastián Quintero
+(+57) 3227470254
+
+morenoquinterojaidersebastian@gmail.com
+
+Soy un desarrollador con experiencia en programación, automatización de procesos y análisis de datos, con
+énfasis en tecnologías JavaScript (Node.js), Python y RPA. Me destaco por mi capacidad para desarrollar
+soluciones eficientes que optimizan tareas y mejoran la experiencia del usuario. Tengo habilidades en
+Inteligencia Artificial y Machine Learning, lo que me permite integrar modelos supervisados y no supervisados en
+proyectos de automatización. Busco una oportunidad para aplicar mis conocimientos en una empresa tecnológica
+y seguir desarrollando mi carrera en el ámbito del desarrollo backend y automatización.
+Muestras de Trabajo
+Desarrollador Javascript: desplegué con exito aplicativos en node.js para el manejo administrativo de un restaurante, Restausync 
+Desarrollador Python
+Utilicé Python, C++ y Excel para procesar y analizar datos, además de administrar la información en Google
+Cloud y Azure.
+Desarrollé un sistema de administración de información para un sistema hidropónico utilizando MySQL, Java,
+PHP y JavaScript.
+
+
+Habilidades
+● Bilingüe Inglés C1
+● Visual Basic, C, C++, Java, JavaScript, Python, Excel, R estudio, PHP, RPA
+● Principios de ciberseguridad, vulnerabilidades de la red, privacidad y confidencialidad de los datos,
+comunicación verbal, trabajo en equipo.
+Certificaciones e insignias
+● Inglés B2 - Academia de idiomas Smart
+● Project Manager- universidad de california
+● Fundamentos de ciberseguridad- Google
